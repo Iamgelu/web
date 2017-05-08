@@ -13,7 +13,7 @@
         var createScript = context.createScriptProcessor || context.createJavaScriptNode;
         var recorder = createScript.apply(context, [4096, 1, 1]);
 
-        var audioData = {
+        var audioData = {//hhhhh
             size: 0          //录音文件长度
             , buffer: []     //录音缓存
             , inputSampleRate: context.sampleRate    //输入采样率
